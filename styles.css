@@ -4,27 +4,34 @@
     height: 80%;
     width: 40%;
     position: relative;
-}
-
-#flightStatus {
+  }
+  
+  #flightStatus {
     color: green;
-}
-
-#flightDisplay {
-    text-align: center; 
-    height: 400px; 
-    width: 100%;
-}
-
-#spaceShuttleHeight {
-    display: inline-block;
-}
-
-.center-block {
-    text-align: center; 
-    display: inline-block;
-}
-
-.centered {
+  }
+  
+  #flightDisplay {
     text-align: center;
-}
+    height: 400px;
+    width: 100%;
+  }
+  
+  #spaceShuttleHeight {
+    display: inline-block;
+  }
+  
+  .center-block {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  img {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 38px);
+  }
+  
